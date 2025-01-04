@@ -1,0 +1,28 @@
+body input {
+  width: 360px;
+  height: 40px;
+  padding: 8px 140px 8px 16px;
+}
+body input ::placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+body h1 {
+  margin: 0;
+}
+.text-field {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 136px;
+  background: #fff;
+}
